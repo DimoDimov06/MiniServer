@@ -8,12 +8,13 @@ namespace MiniServer.HTTP.Enums
 {
     public enum HttpResponseStatusCode
     {
-        OK = 200,
+        Ok = 200,
         Created = 201,
         Found = 302,
         SeeOther = 303,
-        BadReaquest = 400,
-        Unauthorized = 403,
+        BadRequest = 400,
+        Unauthorized = 401,
+        Forbidden = 403,
         NotFound = 404,
         InternalServerError = 500
     }
